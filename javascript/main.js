@@ -22,7 +22,7 @@ document.querySelector(".js-userinput").addEventListener('keyup', function(e) {
 
 function get_gifs(query) {
 
-    var url = 'http://api.giphy.com/v1/gifs/search?q=' + query + '&api_key=NgCTfkDrio3ySlBzktPUx6L67J2bRJeL';
+    var url = 'https://api.giphy.com/v1/gifs/search?q=' + query + '&api_key=NgCTfkDrio3ySlBzktPUx6L67J2bRJeL';
 
     // AJAX Request
     var GiphyAJAXCall = new XMLHttpRequest();
